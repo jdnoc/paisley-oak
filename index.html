@@ -22,32 +22,8 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://www.launchaco.com/static/AllTemplates.min.css">
   </head>
-  <style>
-    .facebook-responsive {
-        overflow:hidden;
-        padding-bottom:56.25%;
-        position:relative;
-        height:100;
-    }
-
-    .facebook-responsive iframe {
-        left:0;
-        top:0;
-        height:100%;
-        width:100%;
-        position:absolute;
-    }
-  </style>
 
   <body class="font-modern">
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=154457425137815&autoLogAppEvents=1';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
     <div class="beige-white">
       <!---->
       <header class="header">
@@ -93,7 +69,9 @@
             </div>
           </div>
           <div class="col-6 flex center-horizontal center-vertical">
-            <div class="fb-video" data-autoplay="true" data-href="https://www.facebook.com/paisleyandoak/videos/483591888790589/" data-width="1000" data-show-text="false"><blockquote cite="https://www.facebook.com/paisleyandoak/videos/483591888790589/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/paisleyandoak/videos/483591888790589/"></a><img src="https://scontent-ort2-2.cdninstagram.com/vp/bf27c25784084e0eff3945fb0f3cdf0f/5C46064C/t51.2885-15/e35/40748267_239038890117071_3322239159871373658_n.jpg" alt=""></div>        
+            <video autoplay class="embed-responsive-item">
+                <source src="/promo-video.mp4" type="video/mp4">
+            </video>
           </div>
         </div>
       </section>
